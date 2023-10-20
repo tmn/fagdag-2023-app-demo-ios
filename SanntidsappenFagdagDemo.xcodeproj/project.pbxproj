@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68C107D2AE30779000CC22F /* SanntidsappenFagdagDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C107C2AE30779000CC22F /* SanntidsappenFagdagDemoApp.swift */; };
+		A68C107F2AE30779000CC22F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C107E2AE30779000CC22F /* ContentView.swift */; };
+		A68C10812AE3077A000CC22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68C10802AE3077A000CC22F /* Assets.xcassets */; };
+		A68C10852AE3077A000CC22F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68C10842AE3077A000CC22F /* Preview Assets.xcassets */; };
+		A68C108F2AE30B87000CC22F /* TravelSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C108E2AE30B87000CC22F /* TravelSearch.swift */; };
+		A68C10952AE314B0000CC22F /* EnTurAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C10942AE314B0000CC22F /* EnTurAPI.swift */; };
+		A68C10A02AE314BA000CC22F /* Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C10962AE314BA000CC22F /* Stops.swift */; };
+		A68C10A12AE314BA000CC22F /* Departure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C10972AE314BA000CC22F /* Departure.swift */; };
+		A68C10A22AE314BA000CC22F /* Quay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C10982AE314BA000CC22F /* Quay.swift */; };
+		A68C10A32AE314BA000CC22F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C10992AE314BA000CC22F /* ModelData.swift */; };
+		A68C10A42AE314BA000CC22F /* DataContainerKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C109A2AE314BA000CC22F /* DataContainerKeys.swift */; };
+		A68C10A52AE314BA000CC22F /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C109B2AE314BA000CC22F /* Journey.swift */; };
+		A68C10A62AE314BA000CC22F /* StopRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C109C2AE314BA000CC22F /* StopRegister.swift */; };
+		A68C10A72AE314BA000CC22F /* DepartureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C109D2AE314BA000CC22F /* DepartureViewModel.swift */; };
+		A68C10A82AE314BA000CC22F /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C109E2AE314BA000CC22F /* Stop.swift */; };
+		A68C10A92AE314BA000CC22F /* JourneyStopPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C109F2AE314BA000CC22F /* JourneyStopPlace.swift */; };
+		A68C10AC2AE314DA000CC22F /* haversineFormula in Frameworks */ = {isa = PBXBuildFile; productRef = A68C10AB2AE314DA000CC22F /* haversineFormula */; };
+		A6BE63DF2AE9870200704513 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE63DE2AE9870200704513 /* LocationManager.swift */; };
+		A6BE63E12AE990CA00704513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE63E02AE990CA00704513 /* AppDelegate.swift */; };
+		A6BE63E42AE99E0300704513 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE63E32AE99E0300704513 /* SearchView.swift */; };
+		A6BF27E62AE425B70022F620 /* StopListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF27E52AE425B70022F620 /* StopListItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A68C10792AE30779000CC22F /* SanntidsappenFagdagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanntidsappenFagdagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68C107C2AE30779000CC22F /* SanntidsappenFagdagDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanntidsappenFagdagDemoApp.swift; sourceTree = "<group>"; };
+		A68C107E2AE30779000CC22F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A68C10802AE3077A000CC22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A68C10822AE3077A000CC22F /* SanntidsappenFagdagDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SanntidsappenFagdagDemo.entitlements; sourceTree = "<group>"; };
+		A68C10842AE3077A000CC22F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A68C108E2AE30B87000CC22F /* TravelSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelSearch.swift; sourceTree = "<group>"; };
+		A68C10942AE314B0000CC22F /* EnTurAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnTurAPI.swift; sourceTree = "<group>"; };
+		A68C10962AE314BA000CC22F /* Stops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stops.swift; sourceTree = "<group>"; };
+		A68C10972AE314BA000CC22F /* Departure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Departure.swift; sourceTree = "<group>"; };
+		A68C10982AE314BA000CC22F /* Quay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quay.swift; sourceTree = "<group>"; };
+		A68C10992AE314BA000CC22F /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A68C109A2AE314BA000CC22F /* DataContainerKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataContainerKeys.swift; sourceTree = "<group>"; };
+		A68C109B2AE314BA000CC22F /* Journey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		A68C109C2AE314BA000CC22F /* StopRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopRegister.swift; sourceTree = "<group>"; };
+		A68C109D2AE314BA000CC22F /* DepartureViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartureViewModel.swift; sourceTree = "<group>"; };
+		A68C109E2AE314BA000CC22F /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		A68C109F2AE314BA000CC22F /* JourneyStopPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyStopPlace.swift; sourceTree = "<group>"; };
+		A68C10AD2AE315FD000CC22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A6BE63DE2AE9870200704513 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A6BE63E02AE990CA00704513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6BE63E22AE99D9800704513 /* Trondheim.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Trondheim.gpx; sourceTree = "<group>"; };
+		A6BE63E32AE99E0300704513 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A6BF27E52AE425B70022F620 /* StopListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopListItem.swift; sourceTree = "<group>"; };
+		A6F4F1282AEA48D30018DAB6 /* Sandvika.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Sandvika.gpx; sourceTree = "<group>"; };
+		A6F4F1292AEA4A010018DAB6 /* Salt.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Salt.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68C10762AE30779000CC22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68C10AC2AE314DA000CC22F /* haversineFormula in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A68C10702AE30779000CC22F = {
+			isa = PBXGroup;
+			children = (
+				A68C107B2AE30779000CC22F /* SanntidsappenFagdagDemo */,
+				A68C107A2AE30779000CC22F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68C107A2AE30779000CC22F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68C10792AE30779000CC22F /* SanntidsappenFagdagDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68C107B2AE30779000CC22F /* SanntidsappenFagdagDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A68C10AD2AE315FD000CC22F /* Info.plist */,
+				A6BE63E02AE990CA00704513 /* AppDelegate.swift */,
+				A68C107C2AE30779000CC22F /* SanntidsappenFagdagDemoApp.swift */,
+				A68C108B2AE3077E000CC22F /* Views */,
+				A68C108D2AE3078E000CC22F /* Resources */,
+				A68C10922AE31499000CC22F /* Utilities */,
+				A68C108C2AE3078C000CC22F /* Model */,
+				A68C10802AE3077A000CC22F /* Assets.xcassets */,
+				A68C10822AE3077A000CC22F /* SanntidsappenFagdagDemo.entitlements */,
+				A68C10832AE3077A000CC22F /* Preview Content */,
+			);
+			path = SanntidsappenFagdagDemo;
+			sourceTree = "<group>";
+		};
+		A68C10832AE3077A000CC22F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A68C10842AE3077A000CC22F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A68C108B2AE3077E000CC22F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A68C107E2AE30779000CC22F /* ContentView.swift */,
+				A6BE63E32AE99E0300704513 /* SearchView.swift */,
+				A6BF27E52AE425B70022F620 /* StopListItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A68C108C2AE3078C000CC22F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A68C109A2AE314BA000CC22F /* DataContainerKeys.swift */,
+				A68C10972AE314BA000CC22F /* Departure.swift */,
+				A68C109D2AE314BA000CC22F /* DepartureViewModel.swift */,
+				A68C109B2AE314BA000CC22F /* Journey.swift */,
+				A68C109F2AE314BA000CC22F /* JourneyStopPlace.swift */,
+				A68C10992AE314BA000CC22F /* ModelData.swift */,
+				A68C10982AE314BA000CC22F /* Quay.swift */,
+				A68C109E2AE314BA000CC22F /* Stop.swift */,
+				A68C109C2AE314BA000CC22F /* StopRegister.swift */,
+				A68C10962AE314BA000CC22F /* Stops.swift */,
+				A68C108E2AE30B87000CC22F /* TravelSearch.swift */,
+				A6BE63DE2AE9870200704513 /* LocationManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A68C108D2AE3078E000CC22F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F1292AEA4A010018DAB6 /* Salt.gpx */,
+				A6BE63E22AE99D9800704513 /* Trondheim.gpx */,
+				A6F4F1282AEA48D30018DAB6 /* Sandvika.gpx */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A68C10922AE31499000CC22F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A68C10932AE314A1000CC22F /* Network */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A68C10932AE314A1000CC22F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A68C10942AE314B0000CC22F /* EnTurAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68C10782AE30779000CC22F /* SanntidsappenFagdagDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68C10882AE3077A000CC22F /* Build configuration list for PBXNativeTarget "SanntidsappenFagdagDemo" */;
+			buildPhases = (
+				A68C10752AE30779000CC22F /* Sources */,
+				A68C10762AE30779000CC22F /* Frameworks */,
+				A68C10772AE30779000CC22F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanntidsappenFagdagDemo;
+			packageProductDependencies = (
+				A68C10AB2AE314DA000CC22F /* haversineFormula */,
+			);
+			productName = SanntidsappenFagdagDemo;
+			productReference = A68C10792AE30779000CC22F /* SanntidsappenFagdagDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68C10712AE30779000CC22F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A68C10782AE30779000CC22F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A68C10742AE30779000CC22F /* Build configuration list for PBXProject "SanntidsappenFagdagDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A68C10702AE30779000CC22F;
+			packageReferences = (
+				A68C10AA2AE314DA000CC22F /* XCRemoteSwiftPackageReference "HaversineDistance" */,
+			);
+			productRefGroup = A68C107A2AE30779000CC22F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68C10782AE30779000CC22F /* SanntidsappenFagdagDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68C10772AE30779000CC22F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68C10852AE3077A000CC22F /* Preview Assets.xcassets in Resources */,
+				A68C10812AE3077A000CC22F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68C10752AE30779000CC22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68C10952AE314B0000CC22F /* EnTurAPI.swift in Sources */,
+				A6BE63E42AE99E0300704513 /* SearchView.swift in Sources */,
+				A6BE63DF2AE9870200704513 /* LocationManager.swift in Sources */,
+				A68C10A52AE314BA000CC22F /* Journey.swift in Sources */,
+				A68C108F2AE30B87000CC22F /* TravelSearch.swift in Sources */,
+				A68C10A32AE314BA000CC22F /* ModelData.swift in Sources */,
+				A68C10A62AE314BA000CC22F /* StopRegister.swift in Sources */,
+				A68C107F2AE30779000CC22F /* ContentView.swift in Sources */,
+				A68C10A12AE314BA000CC22F /* Departure.swift in Sources */,
+				A68C10A82AE314BA000CC22F /* Stop.swift in Sources */,
+				A68C10A42AE314BA000CC22F /* DataContainerKeys.swift in Sources */,
+				A68C10A92AE314BA000CC22F /* JourneyStopPlace.swift in Sources */,
+				A68C10A02AE314BA000CC22F /* Stops.swift in Sources */,
+				A6BE63E12AE990CA00704513 /* AppDelegate.swift in Sources */,
+				A68C10A72AE314BA000CC22F /* DepartureViewModel.swift in Sources */,
+				A68C10A22AE314BA000CC22F /* Quay.swift in Sources */,
+				A6BF27E62AE425B70022F620 /* StopListItem.swift in Sources */,
+				A68C107D2AE30779000CC22F /* SanntidsappenFagdagDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A68C10862AE3077A000CC22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A68C10872AE3077A000CC22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A68C10892AE3077A000CC22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_ENTUR_GEOCODER = "https://api.entur.io/geocoder/v1/";
+				API_ENTUR_JOURNEYPLANNER = "https://api.entur.io/journey-planner/v3/graphql";
+				API_ENTUR_STOPREGISTER = "https://api.entur.io/stop-places/v1/graphql";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SanntidsappenFagdagDemo/SanntidsappenFagdagDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SanntidsappenFagdagDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = TTPD58N2KH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SanntidsappenFagdagDemo/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For å gi deg mer presise søkeresultater";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tmn.SanntidsappenFagdagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SA_CLIENT_NAME = "tmnio-sanntidsappen-dev";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A68C108A2AE3077A000CC22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_ENTUR_GEOCODER = "https://api.entur.io/geocoder/v1/";
+				API_ENTUR_JOURNEYPLANNER = "https://api.entur.io/journey-planner/v3/graphql";
+				API_ENTUR_STOPREGISTER = "https://api.entur.io/stop-places/v1/graphql";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SanntidsappenFagdagDemo/SanntidsappenFagdagDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SanntidsappenFagdagDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = TTPD58N2KH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SanntidsappenFagdagDemo/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For å gi deg mer presise søkeresultater";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tmn.SanntidsappenFagdagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SA_CLIENT_NAME = "tmnio-sanntidsappen";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68C10742AE30779000CC22F /* Build configuration list for PBXProject "SanntidsappenFagdagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68C10862AE3077A000CC22F /* Debug */,
+				A68C10872AE3077A000CC22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68C10882AE3077A000CC22F /* Build configuration list for PBXNativeTarget "SanntidsappenFagdagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68C10892AE3077A000CC22F /* Debug */,
+				A68C108A2AE3077A000CC22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A68C10AA2AE314DA000CC22F /* XCRemoteSwiftPackageReference "HaversineDistance" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tmn/HaversineDistance";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A68C10AB2AE314DA000CC22F /* haversineFormula */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A68C10AA2AE314DA000CC22F /* XCRemoteSwiftPackageReference "HaversineDistance" */;
+			productName = haversineFormula;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A68C10712AE30779000CC22F /* Project object */;
+}

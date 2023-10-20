@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sanntidsappen API</key>
+	<dict>
+		<key>Geocoder</key>
+		<string>${API_ENTUR_GEOCODER}</string>
+		<key>Journey Planner</key>
+		<string>${API_ENTUR_JOURNEYPLANNER}</string>
+		<key>Stop Register</key>
+		<string>${API_ENTUR_STOPREGISTER}</string>
+	</dict>
+	<key>Sanntidsappen Client Name</key>
+	<string>${SA_CLIENT_NAME}</string>
+</dict>
+</plist>
